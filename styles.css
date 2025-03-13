@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBF6F3;
+}
+
+/* Estilizando a seção */
+#home {
+    display: flex; /* Organiza os elementos lado a lado */
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Separa os elementos */
+    padding: 28px 8%;
+}
+
+/* Estilizando a parte do texto */
+.container {
+    max-width: 50%;
+}
+
+#title {
+    font-size: 3.5rem;
+    color: #1d1d1d;
+    margin-top: 20px
+}
+
+.texto {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+/* Estilizando o botão */
+.btn-default {
+    border: none;
+    color: #ffffff;
+    display: inline-block;
+    background-color: #2F5E6C;
+    border-radius: 12px;
+    padding: 12px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    text-decoration: none;
+    margin-top: 20px   
+}
+
+.btn-default :hover{
+        color: #fff; 
+}
+
+
+/* Estilizando a imagem */
+#banner {
+    max-width: 45%;
+    margin-top: 80px
+}
+
+#banner img {
+    width: 90%;
+    height: auto;
+    margin-right: 100px;
+}
+
+/* tudo da nav bar aqui */
+
+.navBar {
+    display: flex;
+    justify-content: space-between; /* Separa logo à esquerda e link à direita */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 15px 8%;
+    background-color: #fff; /* Cor de fundo opcional */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
+
+/* Deixa os itens do <nav> lado a lado */
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; /* Separa os itens */
+    align-items: center;
+}
+
+/* Estiliza a logo */
+#nav_logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Remove estilos padrões da lista e organiza os links */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Faz os itens ficarem lado a lado */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+
+.pagina2 {
+    text-decoration: none;
+    color: #303030;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.pagina2:hover {
+    background-color: #111111de;
+    color: #fff;
+}
+
+
