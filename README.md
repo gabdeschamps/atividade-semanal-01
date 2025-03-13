@@ -7,6 +7,8 @@
 
 <p>href="https://chatgpt.com/share/67d2429a-28f8-8004-94fa-d24de566cce8https://chatgpt.com/share/67d2429a-28f8-8004-94fa-d24de566cce8</p>
 
+<h4>Website link:</h4><p>href"https://gabdeschamps.github.io/atividade-semanal-01"/</p>
+
 <h3>inglish -> </h3>
 
 <h4>Whats up, how are you doing?</h4>
